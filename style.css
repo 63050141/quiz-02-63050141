@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+  }
+  
+  .banner {
+    height: 800px;
+    background-image: url(https://1.bp.blogspot.com/-J5iyOOkXZwI/UAuKqgM_pzI/AAAAAAAAAiI/-lZ4rL8jIFw/s1600/bicycle+%25282%2529.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    color: white;
+
+  }
+
+  .banner-contact {
+    text-align: left;
+    padding-top: 250px;
+  }
+  
+  .banner-contact-1 {
+    text-align: left;
+    padding-top: 50px;
+  }
+
+  .banner-contact>h1{
+    font-size: 80px;
+    margin: 10px;
+  }
+
+.search-field {
+    background-color: black;
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(249, 0, 0);
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    width: 250px;
+    box-shadow: 2px 2px 2px rgba(243, 8, 28, 0.5);
+    background-color: black;
+  }
+  
+  .product-card > img {
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 2px rgba(243, 8, 28, 0.5);
+  }
+  
+  .card-content {
+    background-color: black;
+    padding: 10px;
+    color: white;
+  }
+  
+  .card-footer {
+    background-color: black;
+    padding-inline: 10px;
+    color: aliceblue;
+  }
